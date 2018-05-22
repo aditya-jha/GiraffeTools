@@ -16,4 +16,4 @@ before_script:
   - python manage.py collectstatic --noinput -i other
   - python manage.py migrate
 script:
-  - bash ./bin/run-codecov.sh
+  - bash ./../bin/run-codecov.sh
